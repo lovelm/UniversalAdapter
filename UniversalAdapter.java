@@ -51,7 +51,7 @@ public abstract class UniversalAdapter<T> extends BaseAdapter {
     }
 
     /**
-     * 设置数据的方法，holder来绑定组件并设置数据
+     * 必须实现的用来设置数据的方法，holder来绑定组件并设置数据
      * @param holder
      * @param obj Bean类，传入数据
      */
