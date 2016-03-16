@@ -1,0 +1,2 @@
+# UniversalAdapter
+通用的Adapter，内部包含一个内部类ViewHolder，并且在ViewHolder内部封装通用组件设置方法，适用于ListView、GridView等
