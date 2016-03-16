@@ -50,6 +50,11 @@ public abstract class UniversalAdapter<T> extends BaseAdapter {
         return holder.getItemView();
     }
 
+    /**
+     * 设置数据的方法，holder来绑定组件并设置数据
+     * @param holder
+     * @param obj Bean类，传入数据
+     */
     public abstract void bindView(ViewHolder holder, T obj);
 
 
